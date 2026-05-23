@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol;
+
+}
+html,body{
+    height:100vh;
+    width:100%;
+}
+main{
+      height:100vh;
+     width:100%;
+     background-color: black;
+}
+.nav{
+    width:100%;
+    height:12%;
+    border-radius: 25px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+    position: relative;
+}
+#line{
+    width: 450px;
+    position: absolute;
+    top:-65px;
+}
+#heading{
+    font-size: xxx-large;
+    font-weight: 500;
+    color: white;
+}
+.section1{
+     width:100%;
+     height: 52%;
+     padding: 10px;
+     border-radius: 25px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+   
+}
+.drink{
+    height: 270px;
+
+
+}
+.b{
+    height: 30px;
+    border-radius: 20%;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    top:8px;
+    left: 30px;
+}
+.h3{
+    color:white;
+    font-size: x-large;
+    position: absolute;
+    top:250px;
+}
+.p{
+    color:grey;
+    position: absolute;
+    top:280px;
+    
+}
+.hr{
+    width: 30px;
+    border-color:#DE7418;
+    border-width: 2px;
+    position: absolute;
+    top:305px;
+}
+.h6{
+    color: #DE7418;
+    font-size: larger;
+    position: absolute;
+    top:310px;
+}
+.s1{
+    height: 100%;
+    width:18%;
+    border-radius: 25px ;
+    border: 2px solid #DE7418;
+    box-shadow:
+    inset 0 0 15px rgba(255,138,0,0.4),
+    inset 0 0 30px rgba(255,138,0,0.2),
+    0 0 10px rgba(255,138,0,0.3);
+    background-color:#110F0D;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.s2{
+    height: 100%;
+    width:18%;
+    border-radius: 25px;
+   box-shadow:
+    inset 0 0 8px rgba(255,138,0,0.12),
+    inset 0 0 15px rgba(255,138,0,0.05);
+    background-color:#110F0D;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+      position: relative;
+}
+.s3{
+    height: 100%;
+    width:18%;
+    border-radius: 25px;
+     box-shadow:
+    inset 0 0 8px rgba(255,138,0,0.12),
+    inset 0 0 15px rgba(255,138,0,0.05);
+    background-color:#110F0D;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+      position: relative;
+}
+.s4{
+    height: 100%;
+    width:18%;
+    border-radius: 25px;
+  box-shadow:
+    inset 0 0 8px rgba(255,138,0,0.12),
+    inset 0 0 15px rgba(255,138,0,0.05);
+    background-color:#110F0D;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+      position: relative;
+}
+.section2{
+     width:100%;
+     height: 31%;
+     border-radius: 25px;
+    background-color:#0B0B0B;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+     box-shadow:
+    inset 0 0 8px rgba(255,138,0,0.4),
+    0 0 8px rgba(255,138,0,0.3);
+}
+#food{
+    height: 200px;
+}
+#p0{
+    color:#DE7418;
+    font-weight: 300;
+    font-size: small;
+    letter-spacing: 0.2em;
+    position: absolute;
+    top:10px;
+    left: 350px;
+}
+#h3{
+    color: white;
+    font-size: xx-large;
+     position: absolute;
+    top:32px;
+    left: 350px;
+}
+#p1{
+     font-size:medium;
+     color: #646464;
+      position: absolute;
+    top:70px;
+    left: 350px;
+}
+#btn{
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    color:#DE7418 ;
+    border: 2px solid #DE7418;
+    background-color: #0B0B0B;
+     position: absolute;
+    top:175px;
+    left: 350px;
+}
+
+ .footer{
+     width:100%;
+     height: 5%;
+     color: white;
+     font-size: medium;
+     border-radius: 25px;
+    background-color:black;
+    /* border: 2px solid #DE7418; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+ } 
+ .fpart1{
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+ }
+ .fpart2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .dots{
+    height: 8px;
+    width: 8px;
+    background:#DE7418;
+    border-radius: 50%;
+     
+ }
+ .fpart3{
+    width: 30%;
+     display: flex;
+     gap:20px;
+     position: absolute;
+     left: 1200px;
+
+ }
+.ri-instagram-line{
+   color: #DE7418;
+}
+.ri-facebook-circle-line{
+    color: #DE7418;
+}
+.ri-twitter-line{
+    color: #DE7418;
+}
